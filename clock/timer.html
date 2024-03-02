@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop-Watch interface</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <span class="logo"><a href="index.html"><strong>Watch</strong></a></span>
+            <ul>
+                <li>
+                    <a href="clock.html">Clock</a>
+                </li>
+
+                <li>
+                    <a href="stop_watch.html">Stop-Watch</a>
+                </li>
+                <li>
+                    <a href="timer.html">Timer</a>
+                </li>
+
+            </ul>
+
+
+        </div>
+    </header>
+    <div class="box">
+
+        <h1 class="container">This is a Stop-Watch</h1>
+        <div class="container">
+            <div class="stop_watch">
+                <div class='show' id="hour">00</div>
+                <div class="show">:</div>
+                <div class='show' id="minute">00</div>
+                <div class="show">:</div>
+                <div class='show' id="sec">00</div>
+                <div class="show">:</div>
+                <div class='show' id="ms">000</div>        
+            </div>
+            <div class="button">
+                <button class='btn' id="Start">Start/Stop</button>
+                <button class='btn' id="reset">reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/stop_watch.js"></script>
+</body>
+</html>
